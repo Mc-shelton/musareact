@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+.NavbarItems {
+}
+
+.ul {
+  float: right;
+  margin-right: 5%;
+}
+li {
+  color: black;
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+li > span {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+li > hr {
+  opacity: 0;
+  transition: width 0.7s ease-in;
+  width: 50%;
+  border-style: none;
+  background:red;
+  height: 2px;
+  margin: 18px 20px ;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+li:hover > hr {
+  opacity: 1;
+  margin: 18px 20px;
+  width: 50%;
+  float: center;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112.9%;
+}

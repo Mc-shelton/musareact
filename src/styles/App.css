@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: montserrat;
+
+}
+.App{
+  background-image: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: aqua;
+  transition: .5s ease-in-out;
+  margin: 0;
+}

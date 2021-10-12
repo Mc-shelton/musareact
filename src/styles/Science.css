@@ -1,0 +1,16 @@
+.science{
+    color:white;
+    font-size: 24px;
+    width: 350px;
+}
+.science span{
+    font-weight: 700;
+}
+.science .sci{
+    font-size: 52px;
+}
+.science .info{
+    color:white;
+    font-weight: lighter;
+    font-size: 15px;
+}
